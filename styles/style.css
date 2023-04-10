@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Mukta&display=swap');
+
+@media screen {
+
+    
+}
+
+
+:root{
+    --cor-a: #BAD6A3;
+    --cor-b: #122810;
+    --cor-c: #FFCA56;
+    --cor-hover: #b88414;
+
+    --fonte-titulo: 'Kanit', sans-serif;
+    --fonte-texto:  'Mukta', sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    box-sizing: border-box;
+    background-color: var(--cor-a);
+    color: var(--cor-b);
+    
+}
+
+.cabecalho {
+    padding: 2% 0 0 25%;    
+    
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;    
+}   
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-b);
+    font-size: 32px;
+    text-decoration: none;       
+}   
+
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 25% ;      
+    
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    justify-content: space-between;  
+    flex-direction: column;
+    width: 600px;  
+    gap: 10px;
+ 
+} 
+
+.apresentacao__conteudo__titulo {
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    color: #122810;
+    font-size: 42px;    
+   
+}
+
+.apresentacao__conteudo__texto {
+
+    font-family: var(--fonte-texto);
+}
+
+.info {
+    text-decoration: none;
+    background-color: var(--cor-c);
+    padding: 3%;
+    border-radius: 35px;
+    color: var(--cor-b);
+    
+}
+
+.cor-a{
+    background-color: rgb(216, 215, 214);
+    
+}
+
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Mukta&display=swap');
+
+:root{
+    --cor-a: #BAD6A3;
+    --cor-b: #122810;
+    --cor-c: #FFCA56;
+    --cor-hover: #FDAF05;
+
+    --fonte-primaria: 'Kanit', sans-serif;
+    --fonte-secundaria: 'Mukta', sans-serif;
+}
+
+body{
+    background-color: var(--cor-a) ;
+}
+
+.navbar-brand {
+    font-family: var(--fonte-primaria) ;
+}
+
+.nav-item {
+    font-family: var(--fonte-primaria);   
+}
+
+.container {
+    background-color: aqua;    
+}
